@@ -15,61 +15,43 @@ This is a project built around chatengine, this allow for live chat communicatio
 A catalog of recipes with search functionality, filters and sorting.
 
 <p align="center">
-  <img height="200" src="./images/catalog.jpg" />
-</p>
-
-3. Details page
-
-Detailed information about each recipe.
-
-<p align="center">
-  <img height="200" src="./images/details.jpg" />
-</p>
-
-4. Recipe creation
-
-Controlled and JavaScript validated Form to create new recipes.
-
-<p align="center">
-  <img height="200" src="./images/create.jpg" />
+  <img height="200" src="https://user-images.githubusercontent.com/104910559/237486010-7c2e24d5-5a6c-412f-8ca0-94230a87ae30.PNG" />
 </p>
 
 ## Local Set Up
 
-You'll need to have a modern Browser, Git, NodeJS and PostgreSQL installed in your machine for this app to work locally. When you meet those requirements proceed with the steps bellow.
+You'll need to have a modern Browser, Git and NodeJS installed in your machine for this app to work locally. When you meet those requirements proceed with the steps bellow.
 
-1. Clone this repo to your local machine.
+1. Clone this repo to your local machine using the terminal, i used the git bash.
 
 ```sh
-git clone https://github.com/madrizjosea/recipe-guide.git
+git clone https://github.com/Razgrizsx/LiveChat.git
 ```
 
-2. Create an account on the [spoonacular](https://spoonacular.com/food-api) API so you have access to an API key
+2. Create an account on https://chatengine.io so you have access to a private and public key.
 
 3. On a terminal window of your preference navigate to the path where you cloned the repo.
 
-4. On each folder create a .env file following the instructions in their respective .env.example files.
+4. Replace in Front/Live_Chat/src/ChatPage.jsx projectId='PUBLICID' with your own public id. Also replace in Back/index.js "private-key": "PRIVATEKEY" with your own private key.
 
-5. Using the shell or GUI from your postgres data base create a new database to which you'll have to make reference in the api .env file.
+5. Open a terminal for each of the folders in the repo -- Back and Front/Live_Chat.
 
-6. Open a terminal for each of the folders in the repo -- api and client.
-
-7. On each prompt run the command "npm install" to set up the project dependicies.
+6. On each prompt run the command "npm install" to set up the project dependicies.
 
 ```sh
 npm install
 ```
 
-8. On the terminal prompt in the api folder run the command
-
-```sh
-npm run dev
-```
-
-9. On the terminal prompt in the client folder run the command
+7. On the terminal prompt in the Back folder run the command
 
 ```sh
 npm start
+```
+
+8. On the terminal prompt in the Front/Live_Chat folder run the command
+
+```sh
+npm run dev
 ```
 
 The app will launch on your default browser.
