@@ -6,13 +6,15 @@ This is a project built around chatengine, this allow for live chat communicatio
 
 1. Landing Page
 
+Write the Username you want to use, a user is created for every new username, a free account allows up to ten users.
+
 <p align="center">
   <img height="200" src="https://user-images.githubusercontent.com/104910559/237486172-ad45a9c3-7ea4-4efc-9b40-602b2ba1b410.PNG" />
 </p>
 
-2. Catalog
+2. Main Page - Chat Page
 
-A catalog of recipes with search functionality, filters and sorting.
+A chat page where you can search for the other users, you can exchange messages and send files.
 
 <p align="center">
   <img height="200" src="https://user-images.githubusercontent.com/104910559/237486010-7c2e24d5-5a6c-412f-8ca0-94230a87ae30.PNG" />
