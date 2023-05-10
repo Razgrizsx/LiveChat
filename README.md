@@ -7,7 +7,7 @@ This is a project built around chatengine, this allow for live chat communicatio
 1. Landing Page
 
 <p align="center">
-  <img height="200" src="[./images/landing.jpg](https://github.com/Razgrizsx/LiveChat/issues/1#issue-1704447498)" />
+  <img height="200" src="https://user-images.githubusercontent.com/104910559/237486172-ad45a9c3-7ea4-4efc-9b40-602b2ba1b410.PNG" />
 </p>
 
 2. Catalog
